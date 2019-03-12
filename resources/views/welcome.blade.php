@@ -12,6 +12,10 @@
     </head>
     <body>
         <div class="container">
+            <a href="/checkstatus" class="ui button">Status</a>
+            <a href="/getrefund" class="ui button">Refund</a>
+        </div>
+        <div class="container">
             <form class="ui form" method="get" action="/process">
                 <div class="ui label">User login (email address):</div>
                 <div class="ui input"><input type="text" name="cCustUsername"/></div>

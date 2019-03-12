@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Mobicred extends Model
 {
-    protected $table = 'mobicred.transactions';
+    protected $table = 'transactions';
 }

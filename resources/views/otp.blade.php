@@ -17,7 +17,7 @@
                 <input type="hidden" name="cMCReference" value="{{ $cMCReference }}"/>
                 <input type="hidden" name="pf_returned_id" value="{{ $pf_returned_id }}"
                 <div class="ui input"><input type="text" name="iOTP"/></div>
-                <div class="ui btn" type="button">Resend</div>
+                <a href="/resend?mercReqId={{ $cMCReference }}&id={{ $pf_returned_id }}" class="ui button">Resend</a>
                 <button type="submit" class="ui button">Submit</button>
             </form>
         </div>

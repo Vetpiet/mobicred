@@ -19,10 +19,10 @@ class CreateMobicredTransactionsTable extends Migration
             $table->integer('pf_instr_id');
             $table->string('pf_ord_no', 25);
             $table->decimal('amount', 13,2);
-            $table->bigIncrements('mcr_ref_no');
+            $table->integer('mcr_ref_no');
             $table->integer('mcr_resp_code');
             $table->string('mcr_status', 50);
-            $table->string('mcr_repsonse');
+            $table->string('mcr_response');
             $table->string('mcr_warning_msg', 200)->nullable();
             $table->string('mcr_error_msg', 200)->nullable();
             $table->timestamps();

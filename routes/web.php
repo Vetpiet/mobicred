@@ -18,3 +18,14 @@ Route::get('/', function () {
 Route::get('/process', 'MobicredController@process');
 Route::get('/auth', 'MobicredController@auth');
 Route::get('/result', 'MobicredController@result');
+Route::get('/resend', 'MobicredController@resendOTP');
+
+Route::get('/checkstatus', function () {
+    return view('status');
+});
+Route::get('/status', 'MobicredController@status');
+
+Route::get('/getrefund', function () {
+    return view('refund');
+});
+Route::get('/refund', 'MobicredController@refund');

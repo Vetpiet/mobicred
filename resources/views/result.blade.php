@@ -28,7 +28,7 @@
   					<tr><td>mobiCred Reference No</td><td>{{  $mcr_ref_no }}</td></tr>
   					<tr><td>mobiCred Response Code</td><td>{{  $mcr_resp_code }}</td></tr>
   					<tr><td>mobiCred Status</td><td>{{  $mcr_status }}</td></tr>
-  					<tr><td>mobiCred Response</td><td>{{  $mcr_repsonse }}</td></tr>
+  					<tr><td>mobiCred Response</td><td>{{  $mcr_response }}</td></tr>
   				</tbody>
         	</table>
             <a href="/" class="ui button">Home</a>
